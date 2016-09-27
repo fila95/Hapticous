@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EBE68601D9A9F2400E5C105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE685F1D9A9F2400E5C105 /* AppDelegate.swift */; };
+		1EBE68621D9A9F2400E5C105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE68611D9A9F2400E5C105 /* ViewController.swift */; };
+		1EBE68651D9A9F2400E5C105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE68631D9A9F2400E5C105 /* Main.storyboard */; };
+		1EBE68671D9A9F2400E5C105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE68661D9A9F2400E5C105 /* Assets.xcassets */; };
+		1EBE686A1D9A9F2400E5C105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE68681D9A9F2400E5C105 /* LaunchScreen.storyboard */; };
+		1EBE68721D9A9F3500E5C105 /* Hapticous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE68711D9A9F3500E5C105 /* Hapticous.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EBE685C1D9A9F2400E5C105 /* Hapticous Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hapticous Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBE685F1D9A9F2400E5C105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EBE68611D9A9F2400E5C105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EBE68641D9A9F2400E5C105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EBE68661D9A9F2400E5C105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EBE68691D9A9F2400E5C105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EBE686B1D9A9F2400E5C105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBE68711D9A9F3500E5C105 /* Hapticous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hapticous.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBE68591D9A9F2400E5C105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBE68531D9A9F2400E5C105 = {
+			isa = PBXGroup;
+			children = (
+				1EBE685E1D9A9F2400E5C105 /* Hapticous Sample */,
+				1EBE685D1D9A9F2400E5C105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBE685D1D9A9F2400E5C105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE685C1D9A9F2400E5C105 /* Hapticous Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBE685E1D9A9F2400E5C105 /* Hapticous Sample */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE685F1D9A9F2400E5C105 /* AppDelegate.swift */,
+				1EBE68611D9A9F2400E5C105 /* ViewController.swift */,
+				1EBE68711D9A9F3500E5C105 /* Hapticous.swift */,
+				1EBE68631D9A9F2400E5C105 /* Main.storyboard */,
+				1EBE68661D9A9F2400E5C105 /* Assets.xcassets */,
+				1EBE68681D9A9F2400E5C105 /* LaunchScreen.storyboard */,
+				1EBE686B1D9A9F2400E5C105 /* Info.plist */,
+			);
+			path = "Hapticous Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBE685B1D9A9F2400E5C105 /* Hapticous Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBE686E1D9A9F2400E5C105 /* Build configuration list for PBXNativeTarget "Hapticous Sample" */;
+			buildPhases = (
+				1EBE68581D9A9F2400E5C105 /* Sources */,
+				1EBE68591D9A9F2400E5C105 /* Frameworks */,
+				1EBE685A1D9A9F2400E5C105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hapticous Sample";
+			productName = "Hapticous Sample";
+			productReference = 1EBE685C1D9A9F2400E5C105 /* Hapticous Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBE68541D9A9F2400E5C105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Giovanni Filaferro";
+				TargetAttributes = {
+					1EBE685B1D9A9F2400E5C105 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 498K6C2R6K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1EBE68571D9A9F2400E5C105 /* Build configuration list for PBXProject "Hapticous Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EBE68531D9A9F2400E5C105;
+			productRefGroup = 1EBE685D1D9A9F2400E5C105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBE685B1D9A9F2400E5C105 /* Hapticous Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBE685A1D9A9F2400E5C105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE686A1D9A9F2400E5C105 /* LaunchScreen.storyboard in Resources */,
+				1EBE68671D9A9F2400E5C105 /* Assets.xcassets in Resources */,
+				1EBE68651D9A9F2400E5C105 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBE68581D9A9F2400E5C105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE68621D9A9F2400E5C105 /* ViewController.swift in Sources */,
+				1EBE68721D9A9F3500E5C105 /* Hapticous.swift in Sources */,
+				1EBE68601D9A9F2400E5C105 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EBE68631D9A9F2400E5C105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBE68641D9A9F2400E5C105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EBE68681D9A9F2400E5C105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBE68691D9A9F2400E5C105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EBE686C1D9A9F2400E5C105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EBE686D1D9A9F2400E5C105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBE686F1D9A9F2400E5C105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 498K6C2R6K;
+				INFOPLIST_FILE = "Hapticous Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovannifilaferro.Hapticous-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1EBE68701D9A9F2400E5C105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 498K6C2R6K;
+				INFOPLIST_FILE = "Hapticous Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovannifilaferro.Hapticous-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBE68571D9A9F2400E5C105 /* Build configuration list for PBXProject "Hapticous Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE686C1D9A9F2400E5C105 /* Debug */,
+				1EBE686D1D9A9F2400E5C105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBE686E1D9A9F2400E5C105 /* Build configuration list for PBXNativeTarget "Hapticous Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE686F1D9A9F2400E5C105 /* Debug */,
+				1EBE68701D9A9F2400E5C105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EBE68541D9A9F2400E5C105 /* Project object */;
+}
